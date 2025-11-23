@@ -87,33 +87,33 @@
   - classificação automática do tipo de caso
 
 ---
+# *(Simulação para fins educacionais, não representa políticas oficiais do iFood.)*
 
 ## Arquivo utilizado
 
   `base_conhecimento_ifood_genai.csv`  
 
-  OBS: ` Neste caso, extrai os dados da política em um TXT que será nosso LLMS`
+  OBS: ` Neste caso, extraí os dados da política em um TXT que será nosso LLMS`
 
-  *(Simulação para fins educacionais, não representa políticas oficiais do iFood.)*
 
 
 ---
 
-## Clonando o repostório
+## 1 - Clonando o repostório
 ```
  git clone git@github.com:tricia-sz/ifood_genIA.git
 ```
-## abrindo diretorio
+## 2 - Abrindo diretorio
 ```
   cd ifood_genIA
 ```
 
-## Instalando a lib
+## 3 - Instalando a lib
 ```
   npm install 
 ```
 
-## Executando o projeto
+## 4-  Executando o projeto
 ```
   npm run dev 
 ```
@@ -124,12 +124,13 @@
 ### 1 - Bem vindo
   ![welcaome](public/welcome.png)
 
-### 2 - Dúvida de reembolso total
+### 2 - Dúvida sobre  reembolso total
 ![duvida reembolso](public/duvidareembolso.png)
-### 3 - No caso de falha do entregador
+
+### 3 - Erro do restaurante e ou  entregador
 ![alt text](public/falharestauranterentregador.png)
 
-### 4 - cancelamento por erro do app
+### 4 - Cancelamento por erro do app ou estorno pacial
  ![erro do app e estorno parcial](public/erroappeparcial.png)
 
 ## Certificado de conclusão do desafio:
