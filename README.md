@@ -110,12 +110,18 @@ OBS: ` Neste caso, extrai os dados da política em um TXT que será nosso LLMS`
 
 # Implementação abaixo. (Telas da POC Desenvolvida)
 
-### Teste GenIA - Reembolso de pedidos POC
+### Teste GenIA - Reembolso de pedidos POC com base na planilha convertida para o arquivo de consulta LLMS
 
-![GenIa Welcome](public/welcaome.png)
+### 1 - Bem vindo
+![welcome](public/welcome.png)
 
-## Teste - alimentando llms com dados requidos do excel sobre políticas de reembolso.
-![Testando reembolso](public/reembolso.png)
+### 2 - Dúvida de reembolso total
+![alt text](public/duvidareembolso.png)
+### 3 - No caso de falha do entregador
+![alt text](public/falhaentregador.png)
+
+### 4 - cancelamento por erro do app
+![alt text](public/erroapp.png)
 
 ## Certificado de conclusão do desafio:
 
