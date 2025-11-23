@@ -1,0 +1,16 @@
+{
+  "primaryColor": "#b81414",
+  "chatbotName": "Ifood GenIA",
+  "buttonColor": "#7e0f0f",
+  "backgroundColor": "#7f00ff00",
+  "headerColor": "#b81414",
+  "userBubble": "#ffffffa4",
+  "botBubble": "#7e0f0f",
+  "userText": "#000",
+  "botText": "#fff",
+  "iconUrl": "../avatar.png",
+  "botAvatar": "../avatar.png",
+  "welcomeBubble": "Olá, eu sou a GenIA do Ifood. Gostaria de verificar sobre pedido? ",
+  "firstBotMessage": "Me informa qual pedido, cancelamento  você gostaria de saber?",
+  "typingDelay": 0.5
+}

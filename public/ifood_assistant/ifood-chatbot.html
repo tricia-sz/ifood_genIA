@@ -1,0 +1,23 @@
+<div id="ifd-widget">
+    <button id="ifd-open-btn" class="ifd-btn" aria-label="Abrir chat">
+        <span class="ifd-btn-avatar-wrapper">
+            <img id="ifd-icon" alt="Chatbot" />
+            <span class="ifd-btn-badge">1</span>
+        </span>
+    </button>
+
+    <div class="ifd-chat-window" id="ifd-chat-window" style="display:none">
+        <div class="ifd-chat-header">
+            <img src="" alt="Bot logo" class="ifd-chat-header-logo" id="ifd-header-icon" />
+            <span class="ifd-chatbot-name" id="ifd-chatbot-name"></span>
+            <button class="ifd-close-btn" id="ifd-close-btn" aria-label="Close chat">&times;</button>
+        </div>
+        <div class="ifd-chat-body" id="ifd-messages">
+        </div>
+        <form class="ifd-chat-footer" id="ifd-form" autocomplete="off">
+            <input type="text" id="ifd-input" placeholder="Digite sua mensagem..." autocomplete="off" />
+            <button type="submit" id="ifd-submit">Enviar</button>
+            <button type="button" id="ifd-stop" alt="Parar parar geração de IA">🛑</button>
+        </form>
+    </div>
+</div>
