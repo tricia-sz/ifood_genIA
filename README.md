@@ -1,4 +1,3 @@
-
 # Transformando a base de conhecimento  ifood em uma POC de agente GenAI (RAG)
   Este guia é  **opcional** e serve para quem deseja transformar o arquivo  
   `base_conhecimento_ifood_genai.csv` em uma **prova de conceito (POC)** de um agente interno utilizado para decisões de **reembolsos e cancelamentos**, similar ao que times internos podem desenvolver no iFood.
@@ -107,15 +106,23 @@
 ```
   cd ifood_genIA
 ```
+## 3 - Abrindo diretorio no vscode
+```
+  code .
+```
 
-## 3 - Instalando a lib
+## 4 - Instalando a lib
 ```
   npm install 
 ```
 
-## 4-  Executando o projeto
+## 5-  Executando o projeto
 ```
   npm run dev 
+```
+## 6- Acessar o localhost:3000 para visaulizar o projeto.
+```
+  http://localhost:3000
 ```
 # Minha implementação abaixo. (Telas da POC Desenvolvida)
 
@@ -136,3 +143,10 @@
 ## Certificado de conclusão do desafio:
 
   ![Certificado GenIa](public/certificado.png)
+
+
+> Caso você tenha chegado nessa poc através do meu portfólio, abaixo terá o repositório do teste.
+
+
+## Link do repo no github:
+## https://github.com/tricia-sz/ifood_genIA 
