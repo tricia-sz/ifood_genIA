@@ -11,7 +11,7 @@
 
   Criar um agente de IA capaz de:
 
-  1) **Consultar informaÃ§Ãµes oficiais** (base de conhecimento)  
+  1) **Consultar informações oficiais** (base de conhecimento)  
   2) **Responder perguntas operacionais** de forma consistente  
   3) **Evitar respostas inventadas** (alucinação)  
   4) Sugerir **fallback seguro** quando não há confiança
@@ -79,18 +79,10 @@
 
 ---
 
-## 6. Motivo da POC: (por em prática meus estudos voltados para IA)
-
-  > Desenvolvi uma POC de agente interno para decisões de reembolso/cancelamento com RAG, usando uma base de conhecimento simulada.  
-  > Configurei fallback para baixa confiança e testei cenários críticos (pedido já saiu para entrega, cancelamento por falha do restaurante, cobranças reembolsos e cancelamento).  
-  > A POC foi criada com foco em consistência operacional e redução de respostas incorretas.
-
----
-
-## 7. Ideias de evolução (opcional)
+## 6. Ideias de evolução (opcional)
 
   - logs de confiança da resposta
-  - categorias de decisão (financeiro / restaurante / entrega / fraude)
+  - [x] categorias de decisão (financeiro / restaurante / entrega / fraude)
   - integração com APIs ficiticias de pedido/estorno
   - classificação automática do tipo de caso
 
@@ -107,20 +99,38 @@
 
 ---
 
+## Clonando o repostório
+```
+ git clone git@github.com:tricia-sz/ifood_genIA.git
+```
+## abrindo diretorio
+```
+  cd ifood_genIA
+```
+
+## Instalando a lib
+```
+  npm install 
+```
+
+## Executando o projeto
+```
+  npm run dev 
+```
 # Minha implementação abaixo. (Telas da POC Desenvolvida)
 
 ### Teste GenIA - Reembolso de pedidos POC com base na planilha convertida para o arquivo de consulta LLMS
 
 ### 1 - Bem vindo
-  ![welcome](public/welcome.png)
+  ![welcaome](public/welcome.png)
 
 ### 2 - Dúvida de reembolso total
-  ![duvida de reembolso](public/duvidareembolso.png)
+![duvida reembolso](public/duvidareembolso.png)
 ### 3 - No caso de falha do entregador
-  ![falha do entregador](public/falhaentregador.png)
+![alt text](public/falharestauranterentregador.png)
 
 ### 4 - cancelamento por erro do app
-  ![erro app](public/erroapp.png)
+ ![erro do app e estorno parcial](public/erroappeparcial.png)
 
 ## Certificado de conclusão do desafio:
 

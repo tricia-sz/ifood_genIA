@@ -10,7 +10,7 @@
   "botText": "#fff",
   "iconUrl": "../avatar.png",
   "botAvatar": "../avatar.png",
-  "welcomeBubble": "Olá, eu sou a GenIA do Ifood. Gostaria de verificar sobre pedido? ",
-  "firstBotMessage": "Me informa qual pedido, cancelamento  você gostaria de saber?",
+  "welcomeBubble": "Olá, eu sou a GenIA. Assistente voltada para dúvidas sobre a políticas de cancelamentos e reembolsos do Ifood.",
+  "firstBotMessage": "Qual seria sua dúvida sobre  a política interna de cancelamentos e ou reembolsos?",
   "typingDelay": 0.5
 }
