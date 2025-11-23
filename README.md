@@ -105,7 +105,6 @@ OBS: ` Neste caso, extrai os dados da política em um TXT que será nosso LLMS`
 *(Simulação para fins educacionais, não representa políticas oficiais do iFood.)*
 
 
-
 ---
 
 # Implementação abaixo. (Telas da POC Desenvolvida)
