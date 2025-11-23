@@ -1,9 +1,9 @@
 
-# Transformando a base de conhecimento  iffod em uma POC de agente GenAI (RAG)
+# Transformando a base de conhecimento  ifood em uma POC de agente GenAI (RAG)
  Este guia é  **opcional** e serve para quem deseja transformar o arquivo  
 `base_conhecimento_ifood_genai.csv` em uma **prova de conceito (POC)** de um agente interno utilizado para decisões de **reembolsos e cancelamentos**, similar ao que times internos podem desenvolver no iFood.
 
-A ideia não é  construir um sistema completo, mas criar algo demonstrável para **portfólio, currÃ­culo ou entrevista técnica**.
+A ideia não é  construir um sistema completo, mas criar algo demonstrável para **portfólio, currículo ou entrevista técnica**.
 
 ---
 
@@ -103,7 +103,6 @@ Use perguntas como:
 OBS: ` Neste caso, extrai os dados da política em um TXT que será nosso LLMS`
 
 *(Simulação para fins educacionais, não representa políticas oficiais do iFood.)*
-
 
 
 ---
