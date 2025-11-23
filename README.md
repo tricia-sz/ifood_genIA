@@ -107,21 +107,21 @@
 
 ---
 
-# Implementação abaixo. (Telas da POC Desenvolvida)
+# Minha implementação abaixo. (Telas da POC Desenvolvida)
 
 ### Teste GenIA - Reembolso de pedidos POC com base na planilha convertida para o arquivo de consulta LLMS
 
 ### 1 - Bem vindo
-![welcome](public/welcome.png)
+  ![welcome](public/welcome.png)
 
 ### 2 - Dúvida de reembolso total
-![alt text](public/duvidareembolso.png)
+  ![duvida de reembolso](public/duvidareembolso.png)
 ### 3 - No caso de falha do entregador
-![alt text](public/falhaentregador.png)
+  ![falha do entregador](public/falhaentregador.png)
 
 ### 4 - cancelamento por erro do app
-![alt text](public/erroapp.png)
+  ![erro app](public/erroapp.png)
 
 ## Certificado de conclusão do desafio:
 
-![Certificado GenIa](public/certificado.png)
+  ![Certificado GenIa](public/certificado.png)
